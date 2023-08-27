@@ -1,0 +1,19 @@
+{
+  "name": "vertical-paragraph",
+  "version": "1.0.0",
+  "description": "Create vertical paragraph.",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "keywords": [],
+  "author": "Pink Freak",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/icons": "^9.29.0",
+    "@wordpress/scripts": "26.9.0",
+    "classnames": "^2.3.2"
+  },
+  "dependencies": {}
+}

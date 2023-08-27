@@ -1,0 +1,39 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-pf-vertical-paragraph {
+	writing-mode: vertical-rl;
+	margin-inline-start: 1.5rem;
+
+	&.has-text-align-right {
+		margin-right: 0px !important;
+		margin-left: auto !important;
+		&.has-background {
+			margin-right: max(0px,calc((100% - 840px) / 2 - 2.375em)) !important;
+		}
+	}
+
+	&.has-text-align-center {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	&.has-text-align-left {
+		margin-right: auto !important;
+		margin-left: 0px !important;
+		&.has-background {
+			margin-left: max(0px,calc((100% - 840px) / 2 - 2.375em)) !important;
+		}
+	}
+}
+
+.wp-block-group {
+	> .wp-block-pf-vertical-paragraph {
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+}

@@ -1,0 +1,32 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-pf-vertical-paragraph {
+  writing-mode: vertical-rl;
+  margin-inline-start: 1.5rem;
+}
+.wp-block-pf-vertical-paragraph.has-text-align-right {
+  margin-right: max(0px, (100% - 840px) / 2) !important;
+  margin-left: auto !important;
+}
+.wp-block-pf-vertical-paragraph.has-text-align-right.has-background {
+  margin-right: max(0px, (100% - 840px) / 2 - 2.375em) !important;
+}
+.wp-block-pf-vertical-paragraph.has-text-align-center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.wp-block-pf-vertical-paragraph.has-text-align-left {
+  margin-right: auto !important;
+  margin-left: max(0px, (100% - 840px) / 2) !important;
+}
+.wp-block-pf-vertical-paragraph.has-text-align-left.has-background {
+  margin-left: max(0px, (100% - 840px) / 2 - 2.375em) !important;
+}
+
+.wp-block-group > .wp-block-pf-vertical-paragraph {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}/*# sourceMappingURL=editor.css.map */
