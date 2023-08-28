@@ -5,8 +5,9 @@
  */
 
 .wp-block-pf-vertical-paragraph {
-	writing-mode: vertical-lr;
+	writing-mode: vertical-rl;
 	margin-inline-start: 1.5rem;
+	text-align: left !important;
 
 	&.has-text-align-right {
 		margin-right:  max(0px,calc((100% - 840px) / 2)) !important;
